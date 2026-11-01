@@ -1,0 +1,25 @@
+<!-- Assignment 15 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile First Cards</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; margin: 16px; }
+    .cards { display: flex; flex-direction: column; gap: 16px; }
+    .card { padding: 20px; background: #eaf2ff; border: 1px solid #1d3557; border-radius: 8px; }
+    @media (min-width: 600px) {
+      .cards { flex-direction: row; }
+      .card { flex: 1; }
+    }
+  </style>
+</head>
+<body>
+<div class="cards">
+  <div class="card"><h2>Card One</h2><p>This is the first card.</p></div>
+  <div class="card"><h2>Card Two</h2><p>This is the second card.</p></div>
+</div>
+</body>
+</html>

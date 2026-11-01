@@ -1,0 +1,22 @@
+<!-- Assignment 14 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Layout</title>
+  <style>
+    .dashboard { display: grid; grid-template-columns: 200px 1fr; grid-template-areas: "header header" "sidebar main" "footer footer"; gap: 10px; min-height: 400px; }
+    header { grid-area: header; } aside { grid-area: sidebar; } main { grid-area: main; } footer { grid-area: footer; }
+    header, aside, main, footer { padding: 24px; background: #eaf2ff; border: 1px solid #8aa2c8; }
+  </style>
+</head>
+<body>
+<div class="dashboard">
+  <header>Header</header>
+  <aside>Sidebar</aside>
+  <main>Main area</main>
+  <footer>Footer</footer>
+</div>
+</body>
+</html>
