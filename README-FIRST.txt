@@ -1,72 +1,92 @@
-BCS554 – HTML & CSS Development Lab: Solutions
-Student name used in file comments: Aditya Sharma
-IMPORTANT: Replace "ENTER YOUR ROLL NUMBER" in each source file with your actual university roll number.
-Also replace placeholder email addresses and image filenames where instructed.
+# Web Development Assignments
 
-HOW TO USE
-1. Extract this ZIP file.
-2. Open the extracted folder in VS Code (File > Open Folder).
-3. Each assignment has its own folder. Open the named HTML file in a browser (double-click it, or use VS Code Live Server).
-4. HTML files with embedded CSS are self-contained. For linked stylesheets, keep the HTML and CSS files in the same assignment folder.
-5. For Assignments 5 and 15, put the image provided by your instructor in the relevant images folder and update the image filename in the HTML.
-6. Capture your own browser screenshot for each task and keep it with your submission. The assignment brief asks for screenshots; screenshots are not fabricated or included in this source-code pack.
+Welcome to my **Web Development Assignments** repository! This repository contains my HTML and CSS practical assignments completed as part of my web development learning journey.
 
-GIT TASKS – ASSIGNMENT 1
-Open VS Code Terminal / PowerShell in the folder where you want html-lab to be created, then run:
+The projects cover fundamental to advanced concepts of HTML and CSS, including page structure, forms, tables, layouts, and responsive web design.
 
-mkdir html-lab
-cd html-lab
-git init
-git config --local user.name "Aditya Sharma"
-git config --local user.email "YOUR_EMAIL@example.com"
-git config user.name
-git config user.email
+## 📚 Assignments Included
 
-Create index.html (the starter file is in Assignment-01-Git/index.html; copy it into this html-lab folder), then run:
-git status
-git add index.html
-git commit -m "Add home page"
+| Assignment | Topic |
+|---|---|
+| Assignment 01 | Git |
+| Assignment 03 | First HTML |
+| Assignment 04 | Divs and Attributes |
+| Assignment 05 | Links and Images |
+| Assignment 06 | HTML Lists |
+| Assignment 07 | About Me |
+| Assignment 08 | HTML Forms |
+| Assignment 09 | HTML Tables |
+| Assignment 10 | CSS Fundamentals |
+| Assignment 11 | CSS Units and Variables |
+| Assignment 12 | CSS Box Model |
+| Assignment 13 | CSS Flexbox |
+| Assignment 14 | CSS Grid |
+| Assignment 15 | Responsive Web Design |
 
-Edit index.html and add this heading below the first h1:
-<h2>Next Meeting</h2>
+## 🛠️ Technologies Used
 
-Then run:
-git add index.html
-git commit -m "Add next meeting heading"
-git log --oneline
+- **HTML5** – For creating and structuring web pages.
+- **CSS3** – For styling, layouts, and responsive designs.
+- **Visual Studio Code** – For writing and editing code.
+- **Git & GitHub** – For version control and project management.
 
-If Git says your branch is master rather than main, use master in the later push command.
+## 📁 Project Structure
 
-GIT TASKS – ASSIGNMENT 2
-Run these commands from inside html-lab:
-git init --bare ../html-remote
-git remote add origin ../html-remote
-git remote -v
-git push origin main
-(If your branch is master, run: git push origin master)
+```text
+BCS554-HTML_CSS_Assignments_Files/
+│
+├── Assignment-01-Git/
+├── Assignment-03-First-HTML/
+├── Assignment-04-Divs-Attributes/
+├── Assignment-05-Links-Images/
+├── Assignment-06-HTML-Lists/
+├── Assignment-07-About-Me/
+├── Assignment-08-Forms/
+├── Assignment-09-Tables/
+├── Assignment-10-CSS-Fundamentals/
+├── Assignment-11-Units-Variables/
+├── Assignment-12-Box-Model/
+├── Assignment-13-Flexbox/
+├── Assignment-14-CSS-Grid/
+├── Assignment-15-Responsive/
+│
+└── README.md
+```
 
-Then:
-cd ..
-git clone html-remote html-copy
-cd html-copy
-git log --oneline
+## 🚀 How to Run the Projects
 
-EXPECTED CHECKS
-- Assignment 1: git config commands print the configured name/email; git log shows two commits.
-- Assignment 2: git remote -v shows origin for fetch and push; clone contains the same two commits.
-- Assignment 3: first.html tab title is "My First Page"; headings.html has h1/h2/h3 and paragraph; text-format.html demonstrates strong, em and br.
-- Assignment 4: attendance-fixed.html has a closed h1 and properly closed paragraphs.
-- Assignment 5: links navigate between home.html and portfolio.html; replace placeholder image.
-- Assignment 6: unordered, nested ordered and description lists are used as required.
-- Assignment 7: About and Contact anchors point to #about and #contact; replace placeholder email.
-- Assignment 8: labels are associated with inputs; radio buttons share one name; required fields are marked required.
-- Assignment 9: two-student averages are Maths 71 and Science 77.5.
-- Assignment 10: linked.html loads style.css from the same folder.
-- Assignment 11: variables use the exact values specified in the lab sheet.
-- Assignment 12: content-box outer width is 250px; border-box outer width is 200px.
-- Assignment 13: flex navigation, centred cards and wrapping cards are implemented.
-- Assignment 14: grid columns, auto-fill gallery and named grid areas are implemented.
-- Assignment 15: mobile-first layout changes at 600px; image scales; heading size changes at 600px.
+1. Clone this repository:
 
-SUBMISSION
-Submit the exact files requested by each assignment, plus screenshots captured after opening the pages in a browser. For Assignments 1 and 2, copy the actual terminal output into a document or screenshots. Do not submit made-up terminal output; run the commands on your own computer.
+   ```bash
+   git clone https://github.com/Adityashar07/BCS554-HTML_CSS_Assignments_Files.git
+   ```
+
+2. Open the downloaded project folder in Visual Studio Code.
+
+3. Navigate to any assignment folder.
+
+4. Open the respective `index.html` file in your browser.
+
+5. You can also use the **Live Server** extension in VS Code for a better development experience.
+
+## 🎯 Learning Objectives
+
+- Understand HTML document structure and semantic elements.
+- Learn how to create links, lists, forms, and tables.
+- Apply CSS properties for styling web pages.
+- Understand the CSS box model and positioning.
+- Build layouts using Flexbox and CSS Grid.
+- Create responsive web pages for different screen sizes.
+- Learn basic Git and GitHub version control.
+
+## 👨‍💻 Author
+
+**Aditya Sharma**
+**2410303035**
+
+Student | Web Development Learner
+
+
+
+⭐ If you find this repository useful, feel free to explore the assignments and learn from the examples.
+
